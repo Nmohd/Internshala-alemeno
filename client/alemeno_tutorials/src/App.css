@@ -1,0 +1,107 @@
+.home-main {
+  /* border: 5px solid; */
+
+  /* margin-top: 100px; */
+  width: 50%;
+}
+
+.home-header {
+  background-color: rgb(234, 231, 231);
+  margin-bottom: 10px;
+  padding: 25px 25px;
+}
+
+input[type="text"],
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.home-link {
+  text-decoration: none;
+  color: black;
+}
+
+.home-img {
+  width: 200px;
+  margin-left: 5%;
+}
+
+.home-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  margin-bottom: 10px;
+}
+
+.home-content {
+  margin-left: 2%;
+  text-align: left;
+}
+
+.home-hr {
+  color: rgb(255, 255, 255);
+}
+.details-img {
+  width: 40%;
+}
+.details-main {
+  width: 50%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.main-login {
+  margin-top: 10%;
+  background-color: rgb(234, 231, 231);
+  width: 20%;
+  padding: 25px;
+}
+
+input[type="email"],
+select {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.mark {
+  background-color: #45a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
